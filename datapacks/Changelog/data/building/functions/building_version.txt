@@ -1,0 +1,16 @@
+
+Name: Apocalisse
+
+Edition: JAVA EDITION
+
+Release: JE-1.14.4-Apocalisse:BUILDING:14.10.2022a - 1.0.0
+
+Resource_pack: TRUE
+
+Data_pack: TRUE
+
+Github: https://github.com/Lorenzo0310200/Apocalisse
+
+Github_Tag: JE-3a
+
+Website:https://minecraft-map-building-versions.blogspot.com/
