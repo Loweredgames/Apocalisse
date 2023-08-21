@@ -9,8 +9,8 @@ Resource_pack: TRUE
 
 Data_pack: TRUE
 
-Github: https://github.com/Lorenzo0310200/Apocalisse
-
 Github_Tag: JE-3a
+
+Github: https://github.com/Lorenzo0310200/Apocalisse
 
 Website:https://minecraft-map-building-versions.blogspot.com/

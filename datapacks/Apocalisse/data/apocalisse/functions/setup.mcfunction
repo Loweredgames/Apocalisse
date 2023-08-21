@@ -1,3 +1,10 @@
+#Copyright (C) Loweredgames (Lorenzo Giannini) 
+#Contacted:<https://github.com/Loweredgames>
+#This Source Code Form is subject to the terms of the License.
+#NOT OFFICIAL MINECRAFT PRODUCT. NOT APPROVED BY OR ASSOCIATED WITH MOJANG STUDIO.
+#READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
+
+
 #Setup
 
 replaceitem entity @a armor.head minecraft:player_head{display:{Name:'{"text":"jonny","color":"blue","bold":true,"italic":true,"underlined":true}'},HideFlags:39,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
@@ -36,3 +43,4 @@ function apocalisse_story:story2
 function apocalisse_story:story3
 function apocalisse_story:story4
 function apocalisse_story:story5
+aggiungere versione
