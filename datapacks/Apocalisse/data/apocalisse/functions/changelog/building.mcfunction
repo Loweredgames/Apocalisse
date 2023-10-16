@@ -10,7 +10,7 @@ bossbar set minecraft:building max 100
 
 #Version Number
 
-bossbar set building name {"text":"JE-1.14.4-Apocalisse:BUILDING:16.10.2022a ","color":"white","bold":true}
+bossbar set building name {"text":"JE-1.17.1-Apocalisse:BUILDING:16.10.2022a","color":"white","bold":true}
 
 #Map Progress
 

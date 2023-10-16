@@ -21,12 +21,12 @@ execute at @a[tag=apocalisse_player] if block ~ ~1 ~ minecraft:water run effect 
 
 
 #Swim Radiation Player Stop
-scoreboard objectives add Apocalisse_water minecraft.custom:minecraft.swim_one_cm
-execute at @a[tag=apocalisse_player,scores={Apocalisse_water=1..}] run tp @a ~ ~1 ~ ~ ~
-execute at @a[tag=apocalisse_player,scores={Apocalisse_water=2..}] run scoreboard players set @a Apocalisse_water 0
+scoreboard objectives add ApocalisseWater minecraft.custom:minecraft.swim_one_cm
+execute at @a[tag=apocalisse_player,scores={ApocalisseWater=1..}] run tp @a ~ ~1 ~ ~ ~
+execute at @a[tag=apocalisse_player,scores={ApocalisseWater=2..}] run scoreboard players set @a ApocalisseWater 0
 
 
-#Radiation Rain Slow Setup (non puo essere piu lungo di 16 carateri)
+#Radiation Rain Slow Setup
 scoreboard objectives add ApocalisseDamage dummy
 scoreboard players add @a ApocalisseDamage 1
 

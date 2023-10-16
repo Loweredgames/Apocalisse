@@ -15,11 +15,16 @@ data merge entity @e[limit=1,type=minecraft:skeleton,nbt=!{ArmorItems:[{},{},{},
 clear @a[tag=apocalisse_player] minecraft:glass_bottle
 
 
+##Gamerules
+#Da Aggiungere
+#Aggiungere anche spawnpoint. in story?
+
+
 ##Player Armor
-replaceitem entity @a armor.head minecraft:player_head{display:{Name:'{"text":"jonny","color":"blue","bold":true,"italic":true,"underlined":true}'},HideFlags:39,Enchantments:[{id:"minecraft:binding_curse",lvl:1s}]} 1
-replaceitem entity @a armor.feet minecraft:leather_boots{HideFlags:37,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:unbreaking",lvl:1s}]} 1
-replaceitem entity @a armor.legs minecraft:leather_leggings{HideFlags:37,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:unbreaking",lvl:1s}]} 1
-replaceitem entity @a armor.chest minecraft:leather_chestplate{HideFlags:37,Unbreakable:1b,Enchantments:[{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:unbreaking",lvl:1s}]} 1
+item replace entity @a armor.head with minecraft:player_head{display: {Name: '{"text":"jonny","color":"blue","bold":true,"italic":true,"underlined":true}'}, HideFlags: 39, Enchantments: [{id: "minecraft:binding_curse", lvl: 1s}]} 1
+item replace entity @a armor.feet with minecraft:leather_boots{HideFlags: 37, Unbreakable: 1b, Enchantments: [{id: "minecraft:binding_curse", lvl: 1s}, {id: "minecraft:unbreaking", lvl: 1s}]} 1
+item replace entity @a armor.legs with minecraft:leather_leggings{HideFlags: 37, Unbreakable: 1b, Enchantments: [{id: "minecraft:binding_curse", lvl: 1s}, {id: "minecraft:unbreaking", lvl: 1s}]} 1
+item replace entity @a armor.chest with minecraft:leather_chestplate{HideFlags: 37, Unbreakable: 1b, Enchantments: [{id: "minecraft:binding_curse", lvl: 1s}, {id: "minecraft:unbreaking", lvl: 1s}]} 1
 
 
 ##Function

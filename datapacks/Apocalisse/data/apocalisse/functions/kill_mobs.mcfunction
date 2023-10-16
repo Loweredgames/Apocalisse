@@ -20,5 +20,5 @@ kill @e[type=minecraft:stray]
 kill @e[type=minecraft:villager]
 kill @e[type=minecraft:vindicator]
 kill @e[type=minecraft:witch]
-kill @e[type=minecraft:zombie_pigman]
+kill @e[type=minecraft:zombified_piglin]
 reload

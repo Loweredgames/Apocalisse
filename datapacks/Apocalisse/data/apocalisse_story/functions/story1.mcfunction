@@ -15,7 +15,7 @@ execute at @a[scores={ApocalisseStory1=1}] run playsound minecraft:music_disc.13
 execute at @a[scores={ApocalisseStory1=2}] run scoreboard players set @a regeneration 100
 execute at @a[scores={ApocalisseStory1=2}] run tp @a -229.30 7.00 -132.36
 execute at @a[scores={ApocalisseStory1=10}] run weather clear
-execute at @a[scores={ApocalisseStory1=10}] run scoreboard players set @a ApocalisseWeap 0
+execute at @a[scores={ApocalisseStory1=10}] run scoreboard players set @a ApocalisseWeapon 0
 execute at @a[scores={ApocalisseStory1=10}] run function apocalisse:kill_mobs
 execute at @a[scores={ApocalisseStory1=10}] run time set 0
 #execute at @a[scores={ApocalisseStory1=10}] run clear @a (solo per il dev)

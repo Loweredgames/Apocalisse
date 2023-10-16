@@ -23,7 +23,7 @@ execute at @a[scores={ApocalisseStory2=60}] run tp @a -132 28 -47 90 0
 execute at @a[scores={ApocalisseStory2=70}] run tp @a -132 28 -47 90 0
 execute at @a[scores={ApocalisseStory2=80}] run tp @a -133 28 -47 -386 44
 execute at @a[scores={ApocalisseStory2=90}] run tp @a -140 23 -83 -386 44
-execute at @a[scores={ApocalisseStory2=95}] run scoreboard players set @a ApocalisseWeap 1
+execute at @a[scores={ApocalisseStory2=95}] run scoreboard players set @a ApocalisseWeapon 1
 execute at @a[scores={ApocalisseStory2=95}] run scoreboard players set @a ApocalisseWoun 3
 execute at @a[scores={ApocalisseStory2=96}] run summon minecraft:skeleton -136.41 22.00 -110.52 {PersistenceRequired:1b,HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],HandDropChances:[0.000F,0.085F],ActiveEffects:[{Id:12b,Amplifier:250b,Duration:100,ShowParticles:0b}]}
 execute at @a[scores={ApocalisseStory2=96}] run summon minecraft:skeleton -127.91 22.00 -120.20 {PersistenceRequired:1b,HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],HandDropChances:[0.000F,0.085F],ActiveEffects:[{Id:12b,Amplifier:250b,Duration:100,ShowParticles:0b}]}
