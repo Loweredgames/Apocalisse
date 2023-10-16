@@ -1,0 +1,115 @@
+{
+    "parent": "item/shotgun_resting",
+    "overrides": [
+        {
+            "predicate": {
+                "pulling": 1
+            },
+            "model": "item/shotgun_loading1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.1
+            },
+            "model": "item/shotgun_loading1"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.2
+            },
+            "model": "item/shotgun_loading2"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.23
+            },
+            "model": "item/shotgun_loading3"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.26
+            },
+            "model": "item/shotgun_loading4"
+        },
+        {
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.29
+            },
+            "model": "item/shotgun_loading5"
+        },
+	{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.32
+            },
+            "model": "item/shotgun_loading6"
+        },
+	{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.4
+            },
+            "model": "item/shotgun_loading7"
+        },
+	{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.5
+            },
+            "model": "item/shotgun_loading8"
+        },
+	{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.6
+            },
+            "model": "item/shotgun_loading9"
+        },
+	{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.7
+            },
+            "model": "item/shotgun_loading10"
+        },
+	{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.8
+            },
+            "model": "item/shotgun_loading11"
+        },
+	{
+            "predicate": {
+                "pulling": 1,
+                "pull": 0.9
+            },
+            "model": "item/shotgun_loading12"
+        },
+	{
+            "predicate": {
+                "pulling": 1,
+                "pull": 1
+            },
+            "model": "item/shotgun_loading13"
+        },
+	{
+            "predicate": {
+                "pulling": 1,
+		"pull": 1.12
+            },
+            "model": "item/shotgun_loading14"
+        },
+        {
+            "predicate": {
+                "charged": 1
+            },
+            "model": "item/shotgun_loaded"
+        }
+    ]
+}

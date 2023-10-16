@@ -1,0 +1,505 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (https://mrcrayfish.com/tools?id=mc)",
+    "textures": {
+        "shotgun_texture": "item/shotgun",
+        "shell_texture": "item/shell"
+    },
+    "display": {
+        "gui": {
+            "rotation": [ 0, 90, 0 ],
+            "translation": [ -3.7, 5.5, 0 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "ground": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 7.3, -5 ],
+            "scale": [ 1.5, 1.5, 1.5 ]
+        },
+        "fixed": {
+            "rotation": [ 0, 270, 0 ],
+            "translation": [ 6, 11, 0 ],
+            "scale": [ 2, 2, 2 ]
+        },
+        "head": {
+            "rotation": [ 0, 0, 0 ],
+            "translation": [ 0, 6.8, -2.5 ],
+            "scale": [ 1, 1, 1 ]
+        },
+        "firstperson_righthand": {
+            "rotation": [ 70, 5, 0 ],
+            "translation": [ -1, 12, 7 ],
+            "scale": [ 1, 1, 0.8 ]
+        },
+        "thirdperson_righthand": {
+            "rotation": [ 30, 347, 0 ],
+            "translation": [ 1.8, 8.7, -2.6 ],
+            "scale": [ 1, 1, 1 ]
+        }
+    },
+    "elements": [
+        {
+            "name": "Stock 1",
+            "from": [ 7.3, -3, 16 ], 
+            "to": [ 8.7, 0, 18 ], 
+            "rotation": { "origin": [ 8, 2, 15 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 13, 14.5, 14, 16 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 12, 14.5, 13, 16 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 15, 14.5, 16, 16 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 14, 14.5, 15, 16 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 15, 13.5, 16, 14.5 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 14, 13.5, 15, 14.5 ] }
+            }
+        },
+        {
+            "name": "Underbarrel Handle",
+            "from": [ 7.25, 2, 7 ], 
+            "to": [ 8.75, 3, 12 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 2.5, 14.5, 3.5, 15 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 0, 14.5, 2.5, 15 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 3.5, 14.5, 6, 15 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 3.5, 15, 6, 16 ] }
+            }
+        },
+        {
+            "name": "Sight",
+            "from": [ 7.9, 4.1, 3 ], 
+            "to": [ 8.1, 4.4, 3.8 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 11, 11, 11.5, 11.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 11, 11, 11.5, 11.5 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 11, 11, 11.5, 11.5 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 11, 11, 11.5, 11.5 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 11, 11, 11.5, 11.5 ] }
+            }
+        },
+        {
+            "name": "Barrel Pivot Point",
+            "from": [ 7, 2, 12 ], 
+            "to": [ 9, 3, 13 ], 
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 8.5, 10.5, 9, 11.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 8.5, 10.5, 9, 11 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 8.5, 10.5, 9, 11 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 9.5, 10.5, 9, 11.5 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 9.5, 10.5, 9, 11.5 ] }
+            }
+        },
+        {
+            "name": "Trigger Guard 1",
+            "from": [ 7.7, 0.74, 13.63 ], 
+            "to": [ 8.3, 1.14, 15.63 ], 
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] }
+            }
+        },
+        {
+            "name": "Right Barrel Bottom",
+            "from": [ 8.1, 2.8, 3 ], 
+            "to": [ 8.9, 3, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 6.5, 6, 10.5, 7 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 11, 12.2, 16, 12.3 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 6.5, 6, 10.5, 7 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 11, 12.5, 16, 12.6 ], "rotation": 180 },
+                "down": { "texture": "#shotgun_texture", "uv": [ 11, 12.5, 16, 13 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Right Barrel Side",
+            "from": [ 9, 3.1, 3 ], 
+            "to": [ 9.2, 3.9, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 11, 1.5, 12, 5.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 11, 11.5, 16, 12 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 11, 1.5, 12, 5.5 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 11, 11.7, 16, 11.8 ], "rotation": 90 },
+                "down": { "texture": "#shotgun_texture", "uv": [ 11, 11.7, 16, 11.8 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Left Barrel Bottom",
+            "from": [ 7.1, 2.8, 3 ], 
+            "to": [ 7.9, 3, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 1.5, 6, 5.5, 7 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 11, 12.5, 16, 12.7 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 1.5, 6, 5.5, 7 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 11, 12, 16, 12.2 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 11, 12, 16, 12.5 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Left Barrel Side",
+            "from": [ 6.8, 3.1, 3 ], 
+            "to": [ 7, 3.9, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 0, 1.5, 1, 5.5 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 0, 1.5, 1, 5.5 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 11, 11.5, 16, 12 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 11, 11.4, 16, 11.5 ], "rotation": 90 },
+                "down": { "texture": "#shotgun_texture", "uv": [ 11, 12, 16, 12.2 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Left Barrel Top",
+            "from": [ 7.1, 4, 3 ], 
+            "to": [ 7.9, 4.2, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 1.5, 0, 5.5, 1 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 11, 11.5, 16, 11.7 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 1.5, 0, 5.5, 1 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 11, 11.3, 16, 11.5 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 11, 11, 16, 11.5 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Right Barrel Top",
+            "from": [ 8.1, 4, 3 ], 
+            "to": [ 8.9, 4.2, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 6.5, 0, 10.5, 1 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 11, 10.5, 16, 10.7 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 6.5, 0, 10.5, 1 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 11, 11, 16, 10.8 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 11, 10.5, 16, 11 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Stock 4",
+            "from": [ 7.1, 4, 13 ], 
+            "to": [ 8.9, 4.2, 15.6 ], 
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 9, 9.6, 9.2, 10.4 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 9, 9.6, 10.3, 9.8 ], "rotation": 180 },
+                "south": { "texture": "#shotgun_texture", "uv": [ 10.1, 9.6, 10.3, 10.4 ], "rotation": 90 },
+                "west": { "texture": "#shotgun_texture", "uv": [ 9, 10.2, 10.3, 10.4 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 9, 9.6, 10.3, 10.4 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Trigger Guard 2",
+            "from": [ 7.7, 0.6, 13.1 ], 
+            "to": [ 8.3, 2, 13.5 ], 
+            "rotation": { "origin": [ 8, 2, 13 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] }
+            }
+        },
+        {
+            "name": "Stock 3",
+            "from": [ 7, 2, 13 ], 
+            "to": [ 9, 4, 16 ], 
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 8, 10.5, 9, 11.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 6.5, 10.5, 8, 11.5 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 5.5, 10.5, 6.5, 11.5 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 9, 10.5, 10.5, 11.5 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 9, 9.5, 10.5, 10.5 ], "rotation": 90 },
+                "down": { "texture": "#shotgun_texture", "uv": [ 6.5, 11.5, 8, 12.5 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Stock 2",
+            "from": [ 7.1, 2, 15 ], 
+            "to": [ 8.9, 4, 18 ], 
+            "rotation": { "origin": [ 8, 2, 15 ], "axis": "x", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 9.5, 13.5, 10.5, 14.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 7.5, 14.5, 8.5, 16 ], "rotation": 90 },
+                "south": { "texture": "#shotgun_texture", "uv": [ 10.5, 13.5, 11.5, 14.5 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 9.5, 14.5, 10.5, 16 ], "rotation": 90 },
+                "up": { "texture": "#shotgun_texture", "uv": [ 10.5, 14.5, 11.5, 16 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 8.5, 14.5, 9.5, 16 ] }
+            }
+        },
+        {
+            "name": "Stock Left",
+            "from": [ 6.8, 2.5, 13 ], 
+            "to": [ 7, 3.9, 15.4 ], 
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 9, 10.6, 9.2, 11.2 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 10, 10.6, 10.2, 11.2 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 9, 10.6, 10.2, 11.2 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 9, 10.5, 10.2, 10.7 ], "rotation": 90 },
+                "down": { "texture": "#shotgun_texture", "uv": [ 9, 11.4, 10.2, 11.5 ], "rotation": 270 }
+            }
+        },
+        {
+            "name": "Stock Right",
+            "from": [ 9, 2.5, 13 ], 
+            "to": [ 9.2, 3.9, 15.4 ], 
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 7.8, 10.5, 8, 11.2 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 6.8, 10.5, 8, 11.2 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 6.8, 10.5, 7, 11.2 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 6.8, 10.5, 8, 11.4 ], "rotation": 270 },
+                "down": { "texture": "#shotgun_texture", "uv": [ 6.8, 11, 8, 11.2 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Top Right Barrel Edge",
+            "from": [ 8.9, 3.9, 3 ], 
+            "to": [ 9.1, 4.1, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 10.5, 0.5, 11.5, 1.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 11, 11.5, 16, 11.7 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 10.5, 0.5, 11.5, 1.5 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 11, 10.5, 16, 10.7 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Bottom Right Barrel Edge",
+            "from": [ 8.9, 2.9, 3 ], 
+            "to": [ 9.1, 3.1, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 10.5, 5.5, 11.5, 6.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 11, 11.8, 16, 12 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 10.5, 5.5, 11.5, 6.5 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 11, 12, 16, 12.2 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Bottom Left Barrel Edge",
+            "from": [ 6.9, 2.9, 3 ], 
+            "to": [ 7.1, 3.1, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 0.5, 5.5, 1.5, 6.5 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 0.5, 5.5, 1.5, 6.5 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 11, 11.5, 16, 12 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 11, 12, 16, 12.2 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Top Left Barrel Edge",
+            "from": [ 6.9, 3.9, 3 ], 
+            "to": [ 7.1, 4.1, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 0.5, 0.5, 1.5, 1.5 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 11, 11.5, 16, 11.7 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 11, 11.4, 16, 11.5 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Barrel Middle",
+            "from": [ 7, 2.9, 3 ], 
+            "to": [ 9, 4.1, 13 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "x", "angle": -45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 1, 0.5, 11, 6.5 ], "rotation": 180 },
+                "east": { "texture": "#shotgun_texture", "uv": [ 11, 11.5, 16, 12 ], "rotation": 180 },
+                "south": { "texture": "#shotgun_texture", "uv": [ 1, 0.5, 11, 6.5 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 11, 11.5, 16, 12 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 11, 10.5, 16, 11.5 ], "rotation": 90 },
+                "down": { "texture": "#shotgun_texture", "uv": [ 11, 12, 16, 13 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Stock Top Left",
+            "from": [ 6.9, 3.9, 13 ], 
+            "to": [ 7.1, 4.1, 15 ], 
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 9, 10.5, 9.2, 10.7 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 9.8, 10.5, 10, 10.7 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 9, 10.5, 10, 10.7 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 9, 10, 10, 10.3 ], "rotation": 90 }
+            }
+        },
+        {
+            "name": "Stock Top Right",
+            "from": [ 8.9, 3.9, 13 ], 
+            "to": [ 9.1, 4.1, 15 ], 
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 7.8, 11.3, 8, 11.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 7, 11.3, 8, 11.5 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 7, 11.3, 7.2, 11.5 ] },
+                "up": { "texture": "#shotgun_texture", "uv": [ 7, 11.3, 8, 11.5 ], "rotation": 270 }
+            }
+        },
+        {
+            "name": "Trigger Guard 3",
+            "from": [ 7.7, 0.55, 15.52 ], 
+            "to": [ 8.3, 1.95, 15.92 ], 
+            "rotation": { "origin": [ 8, 1, 16 ], "axis": "x", "angle": 45.0 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 0, 11, 0.5, 11.5 ] }
+            }
+        },
+        {
+            "name": "Trigger",
+            "from": [ 7.7, 0.6, 14.3 ], 
+            "to": [ 8.3, 2, 14.7 ], 
+            "rotation": { "origin": [ 8, 2, 13 ], "axis": "x", "angle": -22.5 },
+            "faces": {
+                "north": { "texture": "#shotgun_texture", "uv": [ 0, 11.5, 0.5, 12 ] },
+                "east": { "texture": "#shotgun_texture", "uv": [ 0, 11.5, 0.5, 12 ] },
+                "south": { "texture": "#shotgun_texture", "uv": [ 0, 11.5, 0.5, 12 ] },
+                "west": { "texture": "#shotgun_texture", "uv": [ 0, 11.5, 0.5, 12 ] },
+                "down": { "texture": "#shotgun_texture", "uv": [ 0, 11.5, 0.5, 12 ] }
+            }
+        },
+        {
+            "name": "Shell 1 Base",
+            "from": [ 7.11, 6.11, 15.01 ], 
+            "to": [ 7.89, 6.89, 17.01 ], 
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 15, 12, 16, 13 ], "rotation": 180 },
+                "east": { "texture": "#shell_texture", "uv": [ 14, 13, 15, 16 ], "rotation": 90 },
+                "west": { "texture": "#shell_texture", "uv": [ 12, 13, 13, 16 ], "rotation": 270 },
+                "up": { "texture": "#shell_texture", "uv": [ 15, 13, 16, 16 ] },
+                "down": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Shell 1 Side 1",
+            "from": [ 7.21, 6.89, 15.01 ], 
+            "to": [ 7.79, 6.98, 17.01 ], 
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 15, 12, 16, 13 ], "rotation": 180 },
+                "east": { "texture": "#shell_texture", "uv": [ 15, 13, 16, 16 ], "rotation": 90 },
+                "west": { "texture": "#shell_texture", "uv": [ 15, 13, 16, 16 ], "rotation": 270 },
+                "up": { "texture": "#shell_texture", "uv": [ 15, 13, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Shell 1 Side 2",
+            "from": [ 7.21, 6.02, 15.01 ], 
+            "to": [ 7.79, 6.11, 17.01 ], 
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 15, 12, 16, 13 ] },
+                "east": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ], "rotation": 90 },
+                "west": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ], "rotation": 270 },
+                "down": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Shell 1 Side 3",
+            "from": [ 7.89, 6.21, 15.01 ], 
+            "to": [ 7.98, 6.79, 17.01 ], 
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 15, 12, 16, 13 ], "rotation": 180 },
+                "east": { "texture": "#shell_texture", "uv": [ 14, 13, 15, 16 ], "rotation": 90 },
+                "up": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ] },
+                "down": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Shell 1 Side 4",
+            "from": [ 7.02, 6.21, 15.01 ], 
+            "to": [ 7.11, 6.79, 17.01 ], 
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 15, 12, 16, 13 ], "rotation": 180 },
+                "west": { "texture": "#shell_texture", "uv": [ 12, 13, 13, 16 ], "rotation": 270 },
+                "up": { "texture": "#shell_texture", "uv": [ 12, 13, 13, 16 ] },
+                "down": { "texture": "#shell_texture", "uv": [ 12, 13, 13, 16 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Shell 1 Top",
+            "from": [ 7, 6, 17.02 ], 
+            "to": [ 8, 7, 17.02 ], 
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 0, 7, 9, 16 ] },
+                "south": { "texture": "#shell_texture", "uv": [ 0, 7, 9, 16 ] }
+            }
+        },
+        {
+            "name": "Shell 2 Top",
+            "from": [ 7, 6, 18.02 ], 
+            "to": [ 8, 7, 18.02 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 0, 7, 9, 16 ] },
+                "south": { "texture": "#shell_texture", "uv": [ 0, 7, 9, 16 ] }
+            }
+        },
+        {
+            "name": "Shell 2 Base",
+            "from": [ 7.11, 6.11, 16.01 ], 
+            "to": [ 7.89, 6.89, 18.01 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 15, 12, 16, 13 ], "rotation": 180 },
+                "east": { "texture": "#shell_texture", "uv": [ 14, 13, 15, 16 ], "rotation": 90 },
+                "west": { "texture": "#shell_texture", "uv": [ 12, 13, 13, 16 ], "rotation": 270 },
+                "up": { "texture": "#shell_texture", "uv": [ 15, 13, 16, 16 ] },
+                "down": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Shell 2 Side 1",
+            "from": [ 7.21, 6.89, 16.01 ], 
+            "to": [ 7.79, 6.98, 18.01 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 15, 12, 16, 13 ], "rotation": 180 },
+                "east": { "texture": "#shell_texture", "uv": [ 15, 13, 16, 16 ], "rotation": 90 },
+                "west": { "texture": "#shell_texture", "uv": [ 15, 13, 16, 16 ], "rotation": 270 },
+                "up": { "texture": "#shell_texture", "uv": [ 15, 13, 16, 16 ] }
+            }
+        },
+        {
+            "name": "Shell 2 Side 3",
+            "from": [ 7.89, 6.21, 16.01 ], 
+            "to": [ 7.98, 6.79, 18.01 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 15, 12, 16, 13 ], "rotation": 180 },
+                "east": { "texture": "#shell_texture", "uv": [ 14, 13, 15, 16 ], "rotation": 90 },
+                "up": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ] },
+                "down": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Shell 2 Side 4",
+            "from": [ 7.02, 6.21, 16.01 ], 
+            "to": [ 7.11, 6.79, 18.01 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 15, 12, 16, 13 ], "rotation": 180 },
+                "west": { "texture": "#shell_texture", "uv": [ 12, 13, 13, 16 ], "rotation": 270 },
+                "up": { "texture": "#shell_texture", "uv": [ 12, 13, 13, 16 ] },
+                "down": { "texture": "#shell_texture", "uv": [ 12, 13, 13, 16 ], "rotation": 180 }
+            }
+        },
+        {
+            "name": "Shell 2 Side 2",
+            "from": [ 7.21, 6.02, 16.01 ], 
+            "to": [ 7.79, 6.11, 18.01 ], 
+            "rotation": { "origin": [ 8, 3, 12 ], "axis": "y", "angle": 22.5 },
+            "faces": {
+                "north": { "texture": "#shell_texture", "uv": [ 15, 12, 16, 13 ] },
+                "east": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ], "rotation": 90 },
+                "west": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ], "rotation": 270 },
+                "down": { "texture": "#shell_texture", "uv": [ 13, 13, 14, 16 ], "rotation": 180 }
+            }
+        }
+    ]
+}

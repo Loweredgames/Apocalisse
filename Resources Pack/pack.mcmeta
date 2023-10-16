@@ -1,0 +1,13 @@
+{
+	"pack": {
+		"pack_format": 4,
+		"description": "By LAST DAYS Team and Lorenzo Giannini"
+	},
+	"language":{
+		"en_ld":{
+			"name":"LAST DAYS",
+			"region":"The Wastes",
+			"bidirectional":false
+		}
+	}
+}
