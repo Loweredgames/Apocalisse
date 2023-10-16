@@ -5,9 +5,12 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
-scoreboard objectives add regeneration dummy
-scoreboard players add @a regeneration 1
+##Regenereration Setup
+scoreboard objectives add ApocalisseRegen dummy
+scoreboard players add @a ApocalisseRegen 1
 
-execute at @a[scores={regeneration=100..105}] run effect give @a minecraft:saturation 5 0 true
-execute at @a[scores={regeneration=100..105}] run effect give @a minecraft:regeneration 7 1 true
-execute at @a[scores={regeneration=600..}] run scoreboard players reset @a regeneration
+
+##Regenereration Effect
+execute at @a[tag=apocalisse_player,scores={ApocalisseRegen=100..105}] run effect give @a minecraft:saturation 5 0 true
+execute at @a[tag=apocalisse_player,scores={ApocalisseRegen=100..105}] run effect give @a minecraft:regeneration 7 1 true
+execute at @a[tag=apocalisse_player,scores={ApocalisseRegen=600..}] run scoreboard players reset @a ApocalisseRegen

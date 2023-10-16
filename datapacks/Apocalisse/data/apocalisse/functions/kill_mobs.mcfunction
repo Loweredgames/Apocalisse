@@ -5,6 +5,7 @@
 #READING THE COPYRIGHT (C): <https://www.minecraft.net/en-us/terms>
 
 
+##Kills Mobs
 kill @e[type=minecraft:zombie]
 kill @e[type=minecraft:zombie_villager]
 kill @e[type=minecraft:skeleton]

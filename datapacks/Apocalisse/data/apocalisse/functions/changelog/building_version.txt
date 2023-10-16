@@ -3,13 +3,13 @@ Name: Apocalisse
 
 Edition: JAVA EDITION
 
-Release: JE-1.14.4-Apocalisse:BUILDING:14.10.2022a - 1.0.0
+Release: JE-1.14.4-Apocalisse:BUILDING:16.10.2022a - 1.0.0
 
 Resource_pack: TRUE
 
 Data_pack: TRUE
 
-Github_Tag: JE-3a
+Github_Tag: 1.14.4_JE-0a
 
 Github: https://github.com/Lorenzo0310200/Apocalisse
 
