@@ -16,8 +16,23 @@ clear @a[tag=apocalisse_player] minecraft:glass_bottle
 
 
 ##Gamerules
-#Da Aggiungere
-#Aggiungere anche spawnpoint. in story?
+gamerule commandBlockOutput false
+gamerule doImmediateRespawn true
+gamerule doDaylightCycle false
+gamerule doWeatherCycle false
+gamerule doFireTick false
+gamerule disableRaids true
+gamerule doInsomnia false
+gamerule doMobLoot false
+gamerule doMobSpawning false
+gamerule doPatrolSpawning false
+gamerule doTraderSpawning false
+gamerule fallDamage true
+gamerule fireDamage true
+gamerule keepInventory true
+gamerule mobGriefing false
+gamerule naturalRegeneration false
+gamerule randomTickSpeed 0
 
 
 ##Player Armor
@@ -42,3 +57,4 @@ function apocalisse_story:story2
 function apocalisse_story:story3
 function apocalisse_story:story4
 function apocalisse_story:story5
+function apocalisse_story:story_spawnpoint

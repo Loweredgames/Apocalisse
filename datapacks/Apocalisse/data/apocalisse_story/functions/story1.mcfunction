@@ -10,6 +10,7 @@ scoreboard players add @a ApocalisseStory1 1
 
 
 ##Story 1
+execute at @a[scores={ApocalisseStory1=1..}] run scoreboard objectives add SpawnpointStory1 dummy
 execute at @a[scores={ApocalisseStory1=1}] run scoreboard players set @a ApocalisseWoun 0
 execute at @a[scores={ApocalisseStory1=1}] run playsound minecraft:music_disc.13 ambient @a -215.70 5.00 -135.61 250
 execute at @a[scores={ApocalisseStory1=2}] run scoreboard players set @a regeneration 100
@@ -26,14 +27,14 @@ execute at @a[scores={ApocalisseStory1=11}] run me Fare trama e flashback
 execute at @a[scores={ApocalisseStory1=50}] run setblock -218 6 -136 minecraft:carved_pumpkin[facing=east]
 execute at @a[scores={ApocalisseStory1=100}] run setblock -218 6 -136 minecraft:jack_o_lantern[facing=east]
 execute at @a[scores={ApocalisseStory1=125}] run setblock -218 6 -136 minecraft:carved_pumpkin[facing=east]
-execute at @a[scores={ApocalisseStory1=126}] run me 2
+execute at @a[scores={ApocalisseStory1=126}] run me fare trama
 execute at @a[scores={ApocalisseStory1=200}] run setblock -218 6 -136 minecraft:jack_o_lantern[facing=east]
 execute at @a[scores={ApocalisseStory1=270}] run setblock -218 6 -136 minecraft:carved_pumpkin[facing=east]
 execute at @a[scores={ApocalisseStory1=290}] run setblock -218 6 -136 minecraft:jack_o_lantern[facing=east]
-execute at @a[scores={ApocalisseStory1=291}] run me 3
+execute at @a[scores={ApocalisseStory1=291}] run me fare trama
 execute at @a[scores={ApocalisseStory1=300}] run setblock -218 6 -136 minecraft:carved_pumpkin[facing=east]
 execute at @a[scores={ApocalisseStory1=350}] run setblock -218 6 -136 minecraft:jack_o_lantern[facing=east]
-execute at @a[scores={ApocalisseStory1=355}] run me 4
+execute at @a[scores={ApocalisseStory1=355}] run me fare trama
 execute at @a[scores={ApocalisseStory1=358}] run setblock -218 6 -136 minecraft:carved_pumpkin[facing=east]
 execute at @a[scores={ApocalisseStory1=360}] run setblock -218 6 -136 minecraft:jack_o_lantern[facing=east]
 execute at @a[scores={ApocalisseStory1=362}] run setblock -218 6 -136 minecraft:carved_pumpkin[facing=east]
@@ -51,5 +52,6 @@ execute at @a[scores={ApocalisseStory1=374}] run setblock -202 4 -140 minecraft:
 execute at @a[scores={ApocalisseStory1=405}] run effect clear @a
 execute at @a[scores={ApocalisseStory1=405}] run scoreboard players set @a ApocalisseWoun 1
 execute at @a[scores={ApocalisseStory1=405}] run tellraw @a {"text":"\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n "}
+execute at @a[scores={ApocalisseStory1=405}] run effect give @a minecraft:nausea 101 0 true
 execute at @a[scores={ApocalisseStory1=405}] run stopsound @a
 execute at @a[scores={ApocalisseStory1=405..}] run scoreboard objectives remove ApocalisseStory1

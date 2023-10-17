@@ -10,6 +10,7 @@ scoreboard players add @a ApocalisseStory2 1
 
 
 ##Story 2
+execute at @a[scores={ApocalisseStory2=1..}] run scoreboard objectives add SpawnpointStory2 dummy
 execute at @a[scores={ApocalisseStory2=1}] run time set 1000
 execute at @a[scores={ApocalisseStory2=5}] run setblock -115 23 -116 minecraft:stone
 execute at @a[scores={ApocalisseStory2=5}] run tp @a -127 28 -47
@@ -25,6 +26,13 @@ execute at @a[scores={ApocalisseStory2=80}] run tp @a -133 28 -47 -386 44
 execute at @a[scores={ApocalisseStory2=90}] run tp @a -140 23 -83 -386 44
 execute at @a[scores={ApocalisseStory2=95}] run scoreboard players set @a ApocalisseWeapon 1
 execute at @a[scores={ApocalisseStory2=95}] run scoreboard players set @a ApocalisseWoun 3
+
+
+##Loot Spawn
+#aggiungere loot
+
+
+##Mob Spawn
 execute at @a[scores={ApocalisseStory2=96}] run summon minecraft:skeleton -136.41 22.00 -110.52 {PersistenceRequired:1b,HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],HandDropChances:[0.000F,0.085F],ActiveEffects:[{Id:12b,Amplifier:250b,Duration:100,ShowParticles:0b}]}
 execute at @a[scores={ApocalisseStory2=96}] run summon minecraft:skeleton -127.91 22.00 -120.20 {PersistenceRequired:1b,HandItems:[{id:"minecraft:stone_sword",Count:1b},{}],HandDropChances:[0.000F,0.085F],ActiveEffects:[{Id:12b,Amplifier:250b,Duration:100,ShowParticles:0b}]}
 execute at @a[scores={ApocalisseStory2=96}] run summon minecraft:skeleton -135.53 26.94 -103.00 {PersistenceRequired:1b,HandItems:[{id:"minecraft:bow",Count:1b},{}],HandDropChances:[0.000F,0.085F],ActiveEffects:[{Id:12b,Amplifier:250b,Duration:100,ShowParticles:0b}]}

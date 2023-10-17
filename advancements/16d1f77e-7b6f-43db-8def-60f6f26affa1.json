@@ -2849,6 +2849,13 @@
     },
     "done": true
   },
+  "minecraft:recipes/building_blocks/polished_granite": {
+    "criteria": {
+      "has_granite": "2023-10-17 09:10:53 +0200",
+      "has_the_recipe": "2023-10-17 09:10:53 +0200"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/birch_trapdoor": {
     "criteria": {
       "has_the_recipe": "2019-05-21 21:23:42 +0200"
@@ -3878,6 +3885,13 @@
   "minecraft:recipes/misc/blue_dye_from_cornflower": {
     "criteria": {
       "has_the_recipe": "2019-05-21 21:23:42 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/slime_block": {
+    "criteria": {
+      "has_slime_ball": "2023-10-17 09:10:53 +0200",
+      "has_the_recipe": "2023-10-17 09:10:53 +0200"
     },
     "done": true
   },
