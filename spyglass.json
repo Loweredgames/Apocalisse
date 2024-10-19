@@ -11,7 +11,12 @@
 		"selectorTrailingComma": false,
 		"timeOmitTickUnit": false
 	},
-	"lint": {
-		"undeclaredSymbol": null
+	"lint": {"undeclaredSymbol": [
+			{
+				"lint": {
+					"undeclaredSymbol": null
+				}
+			}
+		]
 	}
 }
