@@ -25,7 +25,7 @@ execute at @a[tag=apocalisse_player,scores={ApocalisseWoun=2}] run effect give @
 execute at @a[tag=apocalisse_player,scores={ApocalisseWoun=3}] run effect give @a minecraft:slowness 2 2 true
 
 
-##Wounded Level 4
+##Wounded Level 4 (Sono qui)
 execute at @a[tag=apocalisse_player,scores={ApocalisseWoun=4}] run effect give @a minecraft:slowness 2 1 true
 
 

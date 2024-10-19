@@ -21,7 +21,7 @@ bossbar set building name {"text":"JE-1.17.1-1.0.0-Apocalisse:BUILDING:16.10.202
 
 
 ##MAP PROGRESS (I PROGRESSI DELLA MAPPA, E UN NUMERO APROSSIMATO)
-bossbar set minecraft:building value 15
+bossbar set minecraft:building value 11
 
 
 ##WARNING MESSAGE (MESSAGGIO DA ABILITARE SOLO NELLE VERSIONI DI SVILUPPO)
