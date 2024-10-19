@@ -18,7 +18,7 @@ bossbar set minecraft:nightly_building value 100
 
 
 ##NIGHTLY BUILDING VERSION NUMBER (NUMERO DELLA VERSIONE VISTO IN ALTRO, SOLO NELLE VERSIONI DI SVILUPPO)
-bossbar set nightly_building name {"text":"JE-1.17.1-Apocalisse:NIGHTLY_BUILDING:19.10.2024.21134a_[main]","color":"white","bold":true}
+bossbar set nightly_building name {"text":"JE-1.17.1-Apocalisse:NIGHTLY_BUILDING:19.10.2024.31134a_[main]","color":"white","bold":true}
 
 
 ##NIGHTLY BUILDING VERSION (BOSSBAR VISIBILE: SOLO PER GIT, DISABILITARE PER I RILASCI)
