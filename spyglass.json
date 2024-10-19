@@ -10,5 +10,8 @@
 		"nbtListTrailingComma": false,
 		"selectorTrailingComma": false,
 		"timeOmitTickUnit": false
+	},
+	"lint": {
+		"undeclaredSymbol": null
 	}
 }
